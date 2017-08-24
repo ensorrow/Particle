@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <canvas id="canvas" width="400" height="400"></canvas>
+  <script src="Particle.js"></script>
+  <script>
+    var canvas = document.getElementById('canvas');
+    var mypart = new Particle(canvas, 'logo.png', {method: 'tween', cols: 100, rows: 100});
+    mypart.init();
+  </script>
+</body>
+</html>

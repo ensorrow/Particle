@@ -1,0 +1,1 @@
+对ISUX博客[http://isux.tencent.com/canvas-particle-animation.html](打造高大上的Canvas粒子动画)的实现与封装，使用方法见源码
